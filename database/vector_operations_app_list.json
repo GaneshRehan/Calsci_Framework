@@ -1,0 +1,12 @@
+[
+    {
+        "name": "cross_product",
+        "folder": "vector_operations",
+        "visibility": true
+    },
+    {
+        "name": "dot_product",
+        "folder": "vector_operations",
+        "visibility": true
+    }
+]

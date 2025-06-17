@@ -1,0 +1,27 @@
+[
+    {
+        "name": "mean",
+        "folder": "descriptive_statistics",
+        "visibility": true
+    },
+    {
+        "name": "median",
+        "folder": "descriptive_statistics",
+        "visibility": true
+    },
+    {
+        "name": "mode",
+        "folder": "descriptive_statistics",
+        "visibility": true
+    },
+    {
+        "name": "variance",
+        "folder": "descriptive_statistics",
+        "visibility": true
+    },
+    {
+        "name": "standard_deviation",
+        "folder": "descriptive_statistics",
+        "visibility": true
+    }
+]

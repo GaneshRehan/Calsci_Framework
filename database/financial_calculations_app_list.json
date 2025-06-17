@@ -1,0 +1,17 @@
+[
+    {
+        "name": "compound_interest",
+        "folder": "financial_calculations",
+        "visibility": true
+    },
+    {
+        "name": "present_future_value",
+        "folder": "financial_calculations",
+        "visibility": true
+    },
+    {
+        "name": "loan_amortization",
+        "folder": "financial_calculations",
+        "visibility": true
+    }
+]

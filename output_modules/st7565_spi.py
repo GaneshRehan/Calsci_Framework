@@ -63,3 +63,10 @@ class Display:
                 # self.write_data(eval(buf[i*128+j]))
                 self.write_data(buf[i*128+j])
 
+    def set_contrast(self, contrast):
+        # Clamp contrast value to valid range (0 to 255)
+        contrast = max(0, min(255, contrast))
+        self.write_instruction(0x27)  # Set contrast (0x27 can be adjusted)
+        self.write_instruction(0x81)  # Set contrast control mode
+        self.write_instruction(contrast)  # Set contrast value
+

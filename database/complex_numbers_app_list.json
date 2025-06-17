@@ -1,0 +1,32 @@
+[
+    {
+        "name": "addition",
+        "folder": "complex_numbers",
+        "visibility": true
+    },
+    {
+        "name": "subtraction",
+        "folder": "complex_numbers",
+        "visibility": true
+    },
+    {
+        "name": "multiplication",
+        "folder": "complex_numbers",
+        "visibility": true
+    },
+    {
+        "name": "division",
+        "folder": "complex_numbers",
+        "visibility": true
+    },
+    {
+        "name": "modulous",
+        "folder": "complex_numbers",
+        "visibility": true
+    },
+    {
+        "name": "conjugate",
+        "folder": "complex_numbers",
+        "visibility": true
+    }
+]

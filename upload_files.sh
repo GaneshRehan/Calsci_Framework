@@ -1,0 +1,1 @@
+echo " "; echo "items present:"; echo " ";for i in $(ls); do echo $i; done; echo " "; for i in $(ls); do echo "uploading" $i; ampy -p /dev/ttyUSB0 put $i; echo $i "uploaded"; echo " "; done

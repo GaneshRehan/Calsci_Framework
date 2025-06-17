@@ -1,10 +1,10 @@
 import utime as time  # type:ignore
 from math import *
-from data_modules.object_handler import display, text, nav, text_refresh, typer, keypad_state_manager, keypad_state_manager_reset
-from data_modules.object_handler import current_app
+import machine
+from data_modules.object_handler import display, text, nav, text_refresh, typer, keypad_state_manager, keypad_state_manager_reset, current_app
+from process_modules import boot_up_data_update
 def calculate(db={}):
     keypad_state_manager_reset()
-    # global display, text, text_refresh, typer, nav, current_app
     display.clear_display()
     text.all_clear()
     text_refresh.refresh()
@@ -12,9 +12,10 @@ def calculate(db={}):
         while True:
 
             x = typer.start_typing()
-
+            # print(f"x = {x}")
             if x == "back":
                 current_app[0]="home"
+                current_app[1] = "application_modules"
                 break
             
             if x == "ans" and text.text_buffer[0] != "𖤓":
@@ -26,9 +27,13 @@ def calculate(db={}):
                 display.clear_display()
                 text.update_buffer(res)
 
-            elif x == "alpha" or x == "beta":
+            elif x == "alpha" or x == "beta":                        
                 keypad_state_manager(x=x)
                 text.update_buffer("")
+
+            elif x == "off":
+                boot_up_data_update.main()
+                machine.deepsleep()
 
             elif x != "ans":
                 text.update_buffer(x)

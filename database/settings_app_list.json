@@ -1,0 +1,42 @@
+[
+    {
+        "name": "backlight",
+        "folder": "settings",
+        "visibility": true
+    },
+    {
+        "name": "dark_mode",
+        "folder": "settings",
+        "visibility": true
+    },
+    {
+        "name": "wifi_app",
+        "folder": "settings",
+        "visibility": true
+    },
+    {
+        "name": "wifi_connector",
+        "folder": "settings",
+        "visibility": false
+    },
+    {
+        "name": "network_status",
+        "folder": "settings",
+        "visibility": true
+    },
+    {
+        "name": "update",
+        "folder": "settings",
+        "visibility": true
+    },
+    {
+        "name": "contrast",
+        "folder": "settings",
+        "visibility": false
+    },
+    {
+        "name": "about_calsci",
+        "folder": "settings",
+        "visibility": false
+    }
+]

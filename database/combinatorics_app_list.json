@@ -1,0 +1,27 @@
+[
+    {
+        "name": "factorial",
+        "folder": "combinatorics",
+        "visibility": true
+    },
+    {
+        "name": "gcd",
+        "folder": "combinatorics",
+        "visibility": true
+    },
+    {
+        "name": "lcm",
+        "folder": "combinatorics",
+        "visibility": true
+    },
+    {
+        "name": "nCr",
+        "folder": "combinatorics",
+        "visibility": true
+    },
+    {
+        "name": "nPr",
+        "folder": "combinatorics",
+        "visibility": true
+    }
+]

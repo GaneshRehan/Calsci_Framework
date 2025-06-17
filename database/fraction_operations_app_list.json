@@ -1,0 +1,47 @@
+[
+    {
+        "name": "gcd",
+        "folder": "fraction_operations",
+        "visibility": true
+    },
+    {
+        "name": "simplify_fraction",
+        "folder": "fraction_operations",
+        "visibility": true
+    },
+    {
+        "name": "fraction_to_mixed_num",
+        "folder": "fraction_operations",
+        "visibility": true
+    },
+    {
+        "name": "add_fractions",
+        "folder": "fraction_operations",
+        "visibility": true
+    },
+    {
+        "name": "subtract_fractions",
+        "folder": "fraction_operations",
+        "visibility": true
+    },
+    {
+        "name": "multiply_fractions",
+        "folder": "fraction_operations",
+        "visibility": true
+    },
+    {
+        "name": "divide_fractions",
+        "folder": "fraction_operations",
+        "visibility": true
+    },
+    {
+        "name": "power_fraction",
+        "folder": "fraction_operations",
+        "visibility": true
+    },
+    {
+        "name": "compare_fractions",
+        "folder": "fraction_operations",
+        "visibility": true
+    }
+]
