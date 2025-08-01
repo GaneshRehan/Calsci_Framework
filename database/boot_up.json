@@ -10,15 +10,15 @@
       }
     ],
     "data_points": {
-      "last_used_app": "financial_calculations",
-      "last_used_app_folder": "scientific_calculator",
+      "last_used_app": "home",
+      "last_used_app_folder": "application_modules",
       "last_keypad_state": "default",
       "last_constrast_value": 0
     },
     "states": {
       "wifi_connected": false,
       "bluetooth_connected": false,
-      "dark_mode": true,
+      "dark_mode": false,
       "backlight": false
     }
   }

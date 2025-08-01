@@ -40,6 +40,13 @@ text_refresh=text_tbf(disp_out=display, chrs=chrs, t_b=text)
 menu_refresh=menu_tbf(disp_out=display, chrs=chrs, m_b=menu)
 form_refresh=form_tbf(disp_out=display, chrs=chrs, f_b=form)
 
+from process_modules.spreadsheet_buffer import SpreadsheetBuffer
+from process_modules.spreadsheet_buffer_uploader import SpreadsheetUploader
+
+spreadsheet_buffer = SpreadsheetBuffer()
+spreadsheet_refresh = SpreadsheetUploader(disp_out=display, chrs=chrs, spreadsheet=spreadsheet_buffer)
+
+
 def keypad_state_manager(x):
     if keymap.state == "a" and x[0] == "a":
         keymap.key_change(state="d")
